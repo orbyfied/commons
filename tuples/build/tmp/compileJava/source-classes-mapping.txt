@@ -1,0 +1,10 @@
+io/orbyfied/commons/tuples/Tuple.java
+ io.orbyfied.commons.tuples.Tuple
+ io.orbyfied.commons.tuples.Tuple$1
+ io.orbyfied.commons.tuples.Tuple$Packed
+io/orbyfied/commons/tuples/Pair.java
+ io.orbyfied.commons.tuples.Pair
+io/orbyfied/commons/tuples/Mutuple.java
+ io.orbyfied.commons.tuples.Mutuple
+io/orbyfied/commons/tuples/StrictTuple.java
+ io.orbyfied.commons.tuples.StrictTuple
