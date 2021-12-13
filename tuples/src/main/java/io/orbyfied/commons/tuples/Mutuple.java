@@ -74,17 +74,9 @@ public class Mutuple extends Tuple {
     @Override public <T> T unpack(Class<T> layout) { return wrapped.unpack(layout); }
     @Override public Mutuple toMutable() { return wrapped.toMutable(); }
     @Override public Object clone() { return wrap((Tuple) wrapped.clone()); }
-    @Override public Iterator<Object> iterator() {
-        return wrapped.iterator();
-    }
-    @Override public boolean equals(Object o) {
-        return wrapped.equals(o);
-    }
-    @Override public int hashCode() {
-        return wrapped.hashCode();
-    }
-    @Override public String toString() {
-        return wrapped.toString();
-    }
+    @Override public Iterator<Object> iterator() { return wrapped.iterator(); }
+    @Override public boolean equals(Object o) { return wrapped.equals(o); }
+    @Override public int hashCode() { return wrapped.hashCode(); }
+    @Override public String toString() { return wrapped.toString(); }
 
 }
