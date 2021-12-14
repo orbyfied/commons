@@ -12,15 +12,13 @@ public class Simples {
 
     public static void main(String[] args) {
 
-                               //   0    1    2    3   4  5  6
+                                   //   0    1    2    3   4  5  6
         int idx = ArrayUtils.endOf("a", "b", 'c', 'd', 3, 5, 6);
         System.out.println(idx);
 
         /////////////////////////////////////
 
-        Tuple tuple = Tuple.of("Hello!");
-        tuple.toMutable()
-                .mergeBack(6, 9, 420);
+        Mutuple tuple = Tuple.of("Hello!").toMutable();
         System.out.println(tuple);
 
     }

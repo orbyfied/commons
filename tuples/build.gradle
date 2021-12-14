@@ -1,19 +1,23 @@
 plugins {
-    id 'java'
+    id 'java' // language
 }
 
+// artifact information
 group 'io.orbyfied.commons'
 version '0.1.0'
 
+// dependency repositories
 repositories {
     mavenCentral()
 }
 
+// dependencies
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
 }
 
+// test platform implementation
 test {
     useJUnitPlatform()
 }
